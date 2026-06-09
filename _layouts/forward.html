@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0;url={{ page.to }}">
+  <title>Redirecting to {{ page.to }}</title>
+</head>
+<body>
+  <p>Redirecting to <a href="{{ page.to }}">{{ page.to }}</a>...</p>
+  <script>window.location.href="{{ page.to }}";</script>
+</body>
+</html>
